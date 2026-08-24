@@ -1,0 +1,12 @@
+:root {
+    --black: #0a0a0a;
+    --white: #fafafa;
+}
+body {
+    background-color: var(--black);
+    color: var(--white)
+}
+#hero-text {
+    margin-top: 50px;
+    text-align: center;
+}
