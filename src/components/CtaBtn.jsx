@@ -1,7 +1,7 @@
 export default function CtaBtn() {
     return (
         <>
-            <button className='heroCTA'>Create your dream site now</button>
+            <button className='heroCTA'>CREATE YOUR DREAM SITE NOW</button>
         </>
     )
 }

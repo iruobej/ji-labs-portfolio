@@ -7,12 +7,14 @@ function App() {
     <>
       <div id="hero-section">
         <div id="hero-text">
-          <h1 id="header">JI Labs</h1>
-          <h2>Let me build you a website that converts your visitors to clients!</h2>
-          <p>
-            I build fast, beautiful websites that turn visitors into customers. 
-            Freelance web developer helping small businesses and startups launch products people actually want to use.
-          </p>
+          <div id="circle">
+            <h1 id="header">JI Labs</h1>
+            <h2>Let me build you a website that converts your visitors to clients!</h2>
+            <p>
+              I build fast, beautiful websites that turn visitors into customers. 
+              Freelance web developer helping small businesses and startups launch products people actually want to use.
+            </p>
+          </div>
           <CtaBtn />
         </div>
       </div>
@@ -26,9 +28,13 @@ function App() {
       <h2>About Me</h2>
       <p>
         I'm a Computer Science graduate (Loughborough University) who builds fast, polished websites that turn visitors into 
-        paying customers. Since graduating, I've focused on sharpening my design and development skills to deliver exactly 
+        paying customers. 
+      </p>
+      <p>
+        Since graduating, I've focused on sharpening my design and development skills to deliver exactly 
         that for clients — clean code, thoughtful UX, and results that matter to your business.
-
+      </p>
+      <p>
         Outside of tech, I've been a musician for 14+ years, which gives me a genuine edge working with music, arts, and 
         creative clients — I understand both the technical and creative sides of what you're trying to build.
       </p>
