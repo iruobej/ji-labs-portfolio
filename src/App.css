@@ -4,9 +4,15 @@
 }
 body {
     background-color: var(--black);
-    color: var(--white)
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
 }
 #hero-text {
     margin-top: 50px;
     text-align: center;
+}
+
+
+button {
+    font-family: inherit;
 }

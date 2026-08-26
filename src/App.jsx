@@ -1,7 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import CtaBtn from './components/CtaBtn'
 import './App.css'
 
 function App() {
@@ -15,7 +13,7 @@ function App() {
             I build fast, beautiful websites that turn visitors into customers. 
             Freelance web developer helping small businesses and startups launch products people actually want to use.
           </p>
-          <button className='heroCTA'>Create your dream site now</button>
+          <CtaBtn />
         </div>
       </div>
       <h2>Here's how I can help</h2>
@@ -25,7 +23,16 @@ function App() {
         <li>Attract dream clients</li>
         <li>Have your website's maintenance handled</li>
       </ul>
-      <h2>Projects</h2>
+      <h2>About Me</h2>
+      <p>
+        I'm a Computer Science graduate (Loughborough University) who builds fast, polished websites that turn visitors into 
+        paying customers. Since graduating, I've focused on sharpening my design and development skills to deliver exactly 
+        that for clients — clean code, thoughtful UX, and results that matter to your business.
+
+        Outside of tech, I've been a musician for 14+ years, which gives me a genuine edge working with music, arts, and 
+        creative clients — I understand both the technical and creative sides of what you're trying to build.
+      </p>
+      {/* <h2>Projects</h2> */}
       <h2>Pricing</h2>
       <p>I'll help you create a website for $250</p>
       <h2>The Process</h2>
@@ -37,8 +44,13 @@ function App() {
         <li>Do a few revisions depending on what you paid for</li>
         <li>If you want to pay for maintenance I'll help take care of it without you needing to worry about it</li>
       </ul>
-      <h2>Testimonials</h2>
+      {/* <h2>Testimonials</h2> */}
       <h2>Contact</h2>
+      <ul>
+        <li>Email: joshuairuobe@gmail.com</li>
+        <li>Instagram: @ji.labs_</li>
+        <li>X @JILabsWebDev</li>
+      </ul>
     </>
   )
 }
