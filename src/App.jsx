@@ -1,6 +1,6 @@
 import CtaBtn from './components/CtaBtn'
 import './App.css'
-import ProjList from './components/projList'
+import ProjList from './components/ProjList'
 
 function App() {
   return (
