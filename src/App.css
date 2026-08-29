@@ -7,7 +7,7 @@
     h2 {
         @apply text-2xl font-semibold;
     }
-    h3 {
+    h3 {mm
         @apply text-xl font-semibold
     }
 } */
@@ -21,10 +21,6 @@ body {
     color: var(--white);
     font-family: "Playfair Display", serif;
 }
-#hero-text {
-    margin-top: 50px;
-}
-
 
 button {
     font-family: inherit;
@@ -34,11 +30,21 @@ button {
     border-radius: 10px;
 }
 
+a {
+    color:inherit
+}
+
+#hero-text {
+    margin-top: 50px;
+}
+
 .heroCTA {
     padding: 15px 20px;
     background-color: orange;
     color: white;
     margin: 30px auto;
+    font-size: medium;
+    font-weight: 600;
 }
 
 #circle {
@@ -50,7 +56,7 @@ button {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -150%);
+    transform: translate(-50%, -130%);
     border-radius: 50%;
     
     
@@ -60,4 +66,15 @@ button {
     background: radial-gradient(circle, rgba(0, 102, 255, 0.6) 0%, transparent 70%);
 
     z-index: -1;
+}
+
+.project-img {
+    width: 300px;
+}
+
+.proj-list {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
 }

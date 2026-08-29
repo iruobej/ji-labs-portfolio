@@ -1,6 +1,6 @@
-import { useState } from 'react'
 import CtaBtn from './components/CtaBtn'
 import './App.css'
+import ProjList from './components/projList'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
             <h2>Let me build you a website that converts your visitors to clients!</h2>
             <p>
               I build fast, beautiful websites that turn visitors into customers. 
-              Freelance web developer helping small businesses and startups launch products people actually want to use.
+              Freelance web developer helping small businesses and startups launch products people <em>actually</em> want to use.
             </p>
           </div>
           <CtaBtn />
@@ -27,20 +27,22 @@ function App() {
       </ul>
       <h2>About Me</h2>
       <p>
-        I'm a Computer Science graduate (Loughborough University) who builds fast, polished websites that turn visitors into 
-        paying customers. 
+        I build clean, fast websites that turn visitors into paying customers — with the design sense and technical chops to back it up.
       </p>
       <p>
-        Since graduating, I've focused on sharpening my design and development skills to deliver exactly 
-        that for clients — clean code, thoughtful UX, and results that matter to your business.
+        I'm a Computer Science graduate (Loughborough University), and outside of tech I've spent 14+ years as a musician and producer.
       </p>
       <p>
-        Outside of tech, I've been a musician for 14+ years, which gives me a genuine edge working with music, arts, and 
-        creative clients — I understand both the technical and creative sides of what you're trying to build.
+        That combination means I don't just write code — I understand what creative businesses actually need from a website, 
+        because I've been on the other side of the table.
       </p>
-      {/* <h2>Projects</h2> */}
+      <p>
+        If you're a musician, label, studio, or creative brand, I speak your language.
+      </p>
+      <h2>Recent Designs</h2>
+      <ProjList />
       <h2>Pricing</h2>
-      <p>I'll help you create a website for $250</p>
+      <p>Pricing is tailored to your project - get in touch for a free quote.</p>
       <h2>The Process</h2>
       <ul>
         <li>Fill in the Contact form near the bottom of the page</li>
@@ -53,8 +55,8 @@ function App() {
       {/* <h2>Testimonials</h2> */}
       <h2>Contact</h2>
       <ul>
-        <li>Email: joshuairuobe@gmail.com</li>
-        <li>Instagram: @ji.labs_</li>
+        <li><a href="mailto:joshuairuobe@gmail.com" target="_blank">Email</a></li>
+        <li><a href="https://www.instagram.com/ji.labs/" target="_blank">Instagram</a></li>
         <li>X @JILabsWebDev</li>
       </ul>
     </>
