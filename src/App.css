@@ -34,6 +34,15 @@ a {
     color:inherit
 }
 
+ul {
+    list-style: square;
+    
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
 #hero-text {
     margin-top: 50px;
 }
@@ -45,6 +54,10 @@ a {
     margin: 30px auto;
     font-size: medium;
     font-weight: 600;
+    display: block;
+    margin: 0 auto;
+    width: 270px;
+    text-align: center;
 }
 
 #circle {
@@ -56,7 +69,7 @@ a {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -130%);
+    transform: translate(-50%, -125%);
     border-radius: 50%;
     
     

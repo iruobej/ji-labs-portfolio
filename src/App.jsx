@@ -2,6 +2,7 @@ import CtaBtn from './components/CtaBtn'
 import './App.css'
 import ProjList from './components/ProjList'
 
+
 function App() {
   return (
     <>
@@ -27,7 +28,7 @@ function App() {
       </ul>
       <h2>About Me</h2>
       <p>
-        I build clean, fast websites that turn visitors into paying customers — with the design sense and technical chops to back it up.
+        I build clean, fast websites that turn visitors into paying customers — with the design sense and technical knowledge to back it up.
       </p>
       <p>
         I'm a Computer Science graduate (Loughborough University), and outside of tech I've spent 14+ years as a musician and producer.
@@ -41,23 +42,25 @@ function App() {
       </p>
       <h2>Recent Designs</h2>
       <ProjList />
+      <CtaBtn />
       <h2>Pricing</h2>
-      <p>Pricing is tailored to your project - get in touch for a free quote.</p>
+      <p>Pricing is tailored to your project - <a href="mailto:joshuairuobe@gmail.com" target="_blank">get in touch for a free quote.</a></p>
       <h2>The Process</h2>
-      <ul>
-        <li>Fill in the Contact form near the bottom of the page</li>
-        <li>Choose what time you are free for an initial call, allowing me to understand your vision fully</li>
+      <ol>
+        <li>Contact me by <a href="mailto:joshuairuobe@gmail.com" target="_blank">email</a></li>
+        <li>We'll agree on a time we're both are free for an initial call, allowing me to understand your vision fully</li>
         <li>Agree on price</li>
         <li>I'll do a mockup</li>
-        <li>Do a few revisions depending on what you paid for</li>
+        <li>Sort out any revisions of your site depending on what you paid for</li>
         <li>If you want to pay for maintenance I'll help take care of it without you needing to worry about it</li>
-      </ul>
+      </ol>
+
       {/* <h2>Testimonials</h2> */}
       <h2>Contact</h2>
       <ul>
         <li><a href="mailto:joshuairuobe@gmail.com" target="_blank">Email</a></li>
         <li><a href="https://www.instagram.com/ji.labs/" target="_blank">Instagram</a></li>
-        <li>X @JILabsWebDev</li>
+        <li><a href="http://x.com/JILabsWebDev">X</a></li>
       </ul>
     </>
   )
