@@ -1,7 +1,7 @@
 export default function CtaBtn() {
     return (
         <>
-            <a className='heroCTA'>CREATE YOUR DREAM SITE NOW</a>
+            <a href="mailto:joshuairuobe@gmail.com" className='heroCTA'>CREATE YOUR DREAM SITE NOW</a>
         </>
     )
 }

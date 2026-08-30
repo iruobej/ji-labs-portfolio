@@ -58,6 +58,7 @@ ul li {
     margin: 0 auto;
     width: 270px;
     text-align: center;
+    text-decoration: none;
 }
 
 #circle {
@@ -69,7 +70,7 @@ ul li {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -125%);
+    transform: translate(-50%, -180%);
     border-radius: 50%;
     
     
