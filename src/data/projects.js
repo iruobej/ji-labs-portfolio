@@ -3,7 +3,7 @@ import allThingsQS from '../images/allThingsQS.jpg'
 import ellaK from '../images/ellaK.jpg'
 export const projects = [
     {
-        name: 'Joshua Iruobe portfolio',
+        name: 'Professional Portfolio',
         src: portfolio,
         desc: 'A sleek, dark-mode site built in React and TypeScript to turn visitors into clients and interviews.'
     },

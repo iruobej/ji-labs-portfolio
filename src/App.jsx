@@ -28,23 +28,22 @@ function App() {
       </ul>
       <h2>About Me</h2>
       <p>
-        I build clean, fast websites that turn visitors into paying customers — with the design sense and technical knowledge to back it up.
+        I build clean, fast websites that turn visitors into paying customers, with the design sense and technical knowledge 
+        to back it up.
       </p>
       <p>
-        I'm a Computer Science graduate (Loughborough University), and outside of tech I've spent 14+ years as a musician and producer.
+        I'm a Computer Science graduate (Loughborough University), and outside of tech I've spent 14+ years as a 
+        musician and producer. That background means I don't just write code, I understand what creative brands and artists actually need to look credible online, and I bring an eye for design that a lot of developers miss.
       </p>
       <p>
-        That combination means I don't just write code — I understand what creative businesses actually need from a website, 
-        because I've been on the other side of the table.
-      </p>
-      <p>
-        If you're a musician, label, studio, or creative brand, I speak your language.
+        Right now I split my time between building for clients and producing music, which keeps me sharp on both the 
+        technical and creative sides of a project.
       </p>
       <h2>Recent Designs</h2>
       <ProjList />
       <CtaBtn />
       <h2>Pricing</h2>
-      <p>Pricing is tailored to your project - <a href="mailto:joshuairuobe@gmail.com" target="_blank">get in touch for a free quote.</a></p>
+      <p>Every project's different, so pricing depends on scope — but as a guide, sites start from £350. <a href="mailto:joshuairuobe@gmail.com" target="_blank">Get in touch for a free quote</a>, and I'll give you a clear number after our first call.</p>
       <h2>The Process</h2>
       <ol>
         <li>Contact me by <a href="mailto:joshuairuobe@gmail.com" target="_blank">email</a></li>

@@ -20,6 +20,7 @@ body {
     background-color: var(--black);
     color: var(--white);
     font-family: "Playfair Display", serif;
+    padding: 0 20px;
 }
 
 button {
