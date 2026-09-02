@@ -1,12 +1,7 @@
 import portfolio from '../images/portfolio.jpg'
 import allThingsQS from '../images/allThingsQS.jpg'
 import ellaK from '../images/ellaK.jpg'
-export const projects = [
-    {
-        name: 'Professional Portfolio',
-        src: portfolio,
-        desc: 'A sleek, dark-mode site built in React and TypeScript to turn visitors into clients and interviews.'
-    },
+export const projects = [ 
     {
         name: 'Public Speaking Site',
         src: allThingsQS,
@@ -16,5 +11,10 @@ export const projects = [
         name: 'Tutor Site',
         src: ellaK,
         desc: 'A multi-page booking site that turns "I need a tutor" into a booked session in a few simple steps.'
+    },
+    {
+        name: 'Professional Portfolio',
+        src: portfolio,
+        desc: 'A sleek, dark-mode site built in React and TypeScript to turn visitors into clients and interviews.'
     }
 ]

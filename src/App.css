@@ -52,11 +52,10 @@ ul li {
     padding: 15px 20px;
     background-color: orange;
     color: white;
-    margin: 30px auto;
     font-size: medium;
     font-weight: 600;
     display: block;
-    margin: 0 auto;
+    margin: 30px auto;
     width: 270px;
     text-align: center;
     text-decoration: none;
@@ -92,4 +91,25 @@ ul li {
     display: flex;
     gap: 30px;
     overflow-x: auto;
+}
+
+@media (min-width: 768px) {
+    body {
+        padding: 0 300px;
+    }
+    .heroCTA {
+        margin: 40px auto;
+    }
+    .project-img {
+        width: 500px;
+    }
+    .heroCTA {
+        transition: all 0.2s ease-in-out;
+    }
+    .heroCTA:hover {
+        transform: scaleX(1.05);
+        border: 2px solid orange;
+        color: orange;
+        background-color: transparent;
+    }
 }

@@ -46,8 +46,8 @@ function App() {
       <p>Every project's different, so pricing depends on scope — but as a guide, sites start from £350. <a href="mailto:joshuairuobe@gmail.com" target="_blank">Get in touch for a free quote</a>, and I'll give you a clear number after our first call.</p>
       <h2>The Process</h2>
       <ol>
-        <li>Contact me by <a href="mailto:joshuairuobe@gmail.com" target="_blank">email</a></li>
-        <li>We'll agree on a time we're both are free for an initial call, allowing me to understand your vision fully</li>
+        <li>Contact me by <a href="mailto:joshuairuobe@gmail.com" target="_blank">email</a>, or any of the other contact options listed below</li>
+        <li>We'll agree on a time we're both free for an initial call, allowing me to understand your vision fully</li>
         <li>Agree on price</li>
         <li>I'll do a mockup</li>
         <li>Sort out any revisions of your site depending on what you paid for</li>
@@ -58,6 +58,7 @@ function App() {
       <h2>Contact</h2>
       <ul>
         <li><a href="mailto:joshuairuobe@gmail.com" target="_blank">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/joshua-iruobe/" target="_blank">LinkedIn</a></li>
         <li><a href="https://www.instagram.com/ji.labs/" target="_blank">Instagram</a></li>
         <li><a href="http://x.com/JILabsWebDev">X</a></li>
       </ul>
